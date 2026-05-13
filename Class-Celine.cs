@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ParProg1
 {
-    internal class Class1
+    internal class Celine
     {
         class Person
         {
@@ -16,7 +16,7 @@ namespace ParProg1
         public void MainMethod()
         {
             var person = new Person { Name = "Celine", Age = 27, Hobby = "gaming, musikk, sang og kvalitetstid med venner" };
-            Console.WriteLine($"Hei, jeg heter {person.Name}, jeg er {person.Age} år gammel, og på fritiden så liker jeg {person.Hobby}");
+            Console.WriteLine($"Hei, jeg heter {person.Name}, jeg er {person.Age} år gammel, og på fritiden så liker jeg {person.Hobby}.");
         }
     }
 }
